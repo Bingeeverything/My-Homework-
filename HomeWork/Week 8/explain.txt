@@ -1,0 +1,8 @@
+In Python, calling the input() function to obtain user input will always result in a string. If we want to convert that input into a different type, we need to use int(), float(), etc.
+
+In this exercise, your task is to write a program which automatically guesses the type of input provided by the user. To do this, your program should perform the following steps:
+
+Try to convert the user input into an integer. If a ValueError is not raised, then guess that the type is "int".
+Otherwise, try to convert the user input into a float. If a ValueError is not raised, then guess that the type is "float".
+If the type is not "int" or "float", guess that the type is "str".
+The output of the program should be the guessed type. For example, if the input is 20 the output should be int.
