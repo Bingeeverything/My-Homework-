@@ -1,0 +1,4 @@
+For this question, first we take two inputs, where the first number is the start and the second is the stop, second being non inclusive, 
+then we use a for loop to write the binary number of the number we took
+we use f string to make it so that the binary number is atleast 8 digits
+then we close the file, and read out that file
